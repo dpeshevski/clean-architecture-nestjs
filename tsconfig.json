@@ -9,7 +9,7 @@
     "paths": {
       "@core/*": ["src/core/*"],
       "@infrastructure/*": ["src/infrastructure/*"],
-      "@applications/*": ["src/applications/*"],
+      "@application/*": ["src/application/*"],
       "@test/*": ["src/test/*"],
     },
     "target": "ES2020",
