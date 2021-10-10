@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Daniel",
+      "program": "${workspaceFolder}/dist/Main.js",
+      "sourceMaps": true,
+      "args": ["dotenv_config_path=/${workspaceFolder}/dist/.env"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "runtimeArgs": ["-r", "dotenv/config"],
+      "preLaunchTask": "npm: copy:local-env",
+      "outputCapture": "std"
+    }
+  ]
+}
